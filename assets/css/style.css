@@ -1,14 +1,15 @@
 body {
     background-image: url("../images/bg.png");
     background-size: 100%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
     text-align: center;
     margin: 20px auto;
-    height: 500px;
+    height: 550px;
     width: 65%;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(255, 255, 255, .9);
 }
 
 #questionDiv {
@@ -27,11 +28,26 @@ h1 {
 
 .btn {
     position: relative;
-    bottom: -150px;
 }
 
 img {
-    max-height: 300px;
+    max-height: 250px;
     width: auto;
     margin-top: 30px;
+}
+
+.answerChoice {
+    margin-top: 30px;
+    font-size: large;
+    overflow: hidden;
+    background-color: white;
+    flex: auto;
+}
+
+p {
+    font-size: 150%; 
+}
+
+#questionDiv {
+    margin-top: 5%;
 }
