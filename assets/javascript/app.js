@@ -44,7 +44,7 @@ $(document).ready(function () {
         },
 
         {
-            question: "Which band is estimate to have sold more t-shirts than albums worldwide?",
+            question: "Which band is estimated to have sold more t-shirts than albums worldwide?",
             choice: ["The Ramones", "The Beatles", "The Who", "The Grateful Dead"],
             answer: 0,
             photo: "assets/images/ramones.jpg"
